@@ -104,3 +104,66 @@ const hh = 2
  let j = 7
 
   j = 8
+
+
+
+
+
+
+
+
+
+//   Arrays
+
+// const g = 2
+// const gg = 23
+// const eg = 24
+// const gd = 6
+
+const t = "fdft"
+
+const kk = [2, 23, 24, 6]
+
+const ll = [ "hfgf", "jhhg", "jhvgv", "hfygfgy"]
+
+const yy = [ false, true, true, true, false]
+
+const mix = [true, 3, 65, "hgcg", null]
+
+// console.log(mix.join(" "))
+
+kk.unshift("hugfg", "ghfgf", 666)
+
+// push( pop())
+
+kk.shift()
+kk.shift()
+kk.shift()
+
+
+
+// Objects
+// key- value pairs
+
+
+const oo = {
+    brand: "HP",
+    price: 3900,
+    color: "blue"
+}
+
+const person = {
+    firstName: "David",
+    lastName: "Sampson",
+    age: 60,
+    location: "Port HARCOURT",
+
+}
+
+console.log(kk[3])
+
+console.log(person.firstName, person.age)
+
+`Thes are m,y favopr {4} {2} {5}`
+
+`{}{}{}{}{}`
