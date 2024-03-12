@@ -355,3 +355,97 @@ for(let y = 0; y < ggg.length; y++){
 // Write forloop
 // Using forLoop print out the names of students in ypur student array
 
+
+
+
+
+
+
+
+
+// Variables
+// Arrays
+// Objects
+// Arrays of Objects & Arrays
+// Loops, While  ForLoop
+// Conditionals
+
+// If Else Statement
+// Logical And && Logical OR ||
+
+// const a = 7
+// const c = 10
+
+// const d = 6
+
+// if( a  < 5 || c > 6 && d < 3){
+//     console.log("first")
+// } else {
+//     console.log("Second")
+// }
+
+
+// const b = 16
+
+// if(b >= 6 && b <= 10){
+//     console.log("Monday")
+// } else if(b >= 10 && b <= 15 ){
+//     console.log("Tuesday")
+// } else {
+//     console.log("Wednest")
+// }
+
+// == ===
+
+// console.log( "1" + 1)
+
+
+// const e = "4"
+// let d
+
+// if( e === 4){
+//      d = e + 12
+//     console.log(d)
+// } else {
+//      d = e + 11
+//     console.log(d)
+// }
+
+
+// Ternary Operator
+
+// const a = 5
+
+// a > 5 ? console.log("yes") : console.log("No")
+
+
+
+
+// Functions
+
+
+// function anything (){
+//     console.log("God is good")
+//     console.log("aGOFURE")
+//     console.log("pEACE MASS")
+// }
+
+
+// anything()
+
+function addSomething ( r = 1, g = 3.142){
+    const a = b + d * e
+    console.log(a)
+}
+
+
+addSomething()
+
+
+// Score
+
+// Fail > 49
+// pass >= 50 < 60
+// Very good >= 60 < 
+// Exceelent >= 70
+
