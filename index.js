@@ -562,3 +562,67 @@ console.log(ageArray)
 
 
 
+
+
+
+
+
+// Selectors
+// Single Selectors
+
+// const paraTitle = document.getElementById("t")
+
+// const title =  document.querySelector(".t")
+
+// console.log(paraTitle)
+// console.log(title)
+
+
+
+// Multiple 
+
+// const a = document.getElementsByClassName("t")
+// const b = document.getElementsByTagName("h1")
+// const c = document.querySelectorAll(".t")
+
+// console.log(c)
+
+
+
+// pp.textContent = "David Sampson"
+
+// pp.innerText = "Sampson David"
+
+// pp.innerHTML = `<span>gfyfgfftfg</span>`
+
+// pp.style.color = "red"
+
+// pp.style.fontSize = "100px"
+
+// pp.style.backgroundColor = "blue"
+
+// pp.style.fontStyle = "italic"
+
+
+
+
+const pp = document.getElementById("t")
+
+const button = document.querySelector("#btn")
+
+// Add Eventlistener
+// Choose type event
+// write the function
+
+
+
+const changeBTNCOlor  = ()=>{
+    pp.style.color = "red"
+}
+
+
+
+button.addEventListener("click", changeBTNCOlor)
+
+
+
