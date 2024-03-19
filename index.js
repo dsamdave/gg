@@ -449,3 +449,116 @@ addSomething()
 // Very good >= 60 < 
 // Exceelent >= 70
 
+
+
+
+
+
+
+
+
+
+
+// function ss (a = 50 ){
+
+//     if(a <= 49){
+//         console.log("failed")
+//        } else if( a >= 50 && a < 60){
+//            console.log("Pass")
+//        } else if( a >= 60 && a <=70){
+//            console.log("Very good")
+//        } else if (a >= 70){
+//            console.log("Excellent")
+//        } else{
+//            console.log("NO result")
+//        }
+
+// }
+
+// ss(67)
+// ss(77)
+// ss(17)
+
+// gg(2, 4)
+
+
+// function gg (a, b){
+//  console.log(a + b)
+// }
+
+
+// const ab = (a, b)=>{
+//     console.log(a + b)
+// }
+
+// ab(2, 4)
+
+
+// const hh = ()=>{}
+
+
+// Higher Arrays
+// forEach
+// Map
+// Filter
+
+const ff = ["vhv", "vbghg", "jhvgv", 332, true]
+
+// for(let i = 0; i < ff.length; i++){
+//     console.log(ff[i])
+// }
+
+const jssOne = [
+    {
+        id: 1,
+        firstName: "David",
+        lastName: "Sampson",
+        age: 66,
+        location: "Port Harcourt",
+        isFinished: false
+    },
+    {
+        id: 2,
+        firstName: "Anna",
+        lastName: "Joel",
+        age: 35,
+        location: "Lagos",
+        isFinished: false
+    },
+    {
+        id: 3,
+        firstName: "Cecilia",
+        lastName: "George",
+        age: 14,
+        location: "Port Harcourt",
+        isFinished: true
+    },
+]
+
+// jssOne.forEach((each)=>{
+//     console.log(each.firstName, each.id)
+// })
+
+// const newArray = jssOne.map((each, i)=>{
+//     return each.lastName
+// })
+
+// console.log(newArray)
+
+const filteredArray = jssOne.filter((each, i)=>{
+    return each.location == "Port Harcourt"
+})
+
+
+const ageArray = jssOne.filter((each)=>{
+    return each.age >= 50
+})
+
+
+console.log(ageArray)
+
+// Rewrite the If or eLSE sTATEMENT WITH ARROW FXN
+
+
+
+
